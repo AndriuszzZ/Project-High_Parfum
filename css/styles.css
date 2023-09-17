@@ -1,6 +1,7 @@
 body {
     width: 100%;
     height: 100%;
+    margin: 0 auto;
 }
 
 main {
@@ -15,24 +16,52 @@ main {
     height: 60px;
 }
 
-.header {
+.header-1 {
     background-color: gray;
     height: 60px;
 }
 
 .logo {
-    /* padding: 1px; */
+    padding: 1px;
     width: 70%;
     float: left;
 }
 
+.logo img {
+    width: 50%;
+ 
+}
+
 .redes-sociais ul li {
-    display: inline-block;
+    margin-left: 15px;
+    display: block;
     float: right;
     list-style: none;
+    
+}
+
+.redes-sociais img {
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
 }
 
 .redes-sociais {
     width: 20%;
     float: left;
 }
+
+.header-2 {
+    background-color: beige;
+    width: 100%;
+    border-bottom: 3px solid black;
+}
+
+.menu-secundario ul li {
+    display: inline-block;
+}
+
+.menu-secundario ul li a {
+    color: bisque;
+}
+
