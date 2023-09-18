@@ -4,6 +4,10 @@ body {
     margin: 0 auto;
 }
 
+ul {
+    padding: 0px!important;
+}
+
 main {
     margin: 0 auto;
     width: 980px;
@@ -29,7 +33,6 @@ main {
 
 .logo img {
     width: 50%;
- 
 }
 
 .redes-sociais ul li {
@@ -41,27 +44,62 @@ main {
 }
 
 .redes-sociais img {
-    width: 20px;
-    height: 20px;
-    margin-top: 5px;
+    width: 25px;
+    height: 25px;
+    margin-top: 3px;
 }
 
 .redes-sociais {
+    margin-left: 80px;
     width: 20%;
     float: left;
 }
 
 .header-2 {
-    background-color: beige;
-    width: 100%;
+    background-color: #fff;
+    width: 980px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.menu-urls {
+    height: 80px;
     border-bottom: 3px solid black;
 }
 
 .menu-secundario ul li {
     display: inline-block;
+    margin-left: 15px;
 }
 
 .menu-secundario ul li a {
-    color: bisque;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
 }
 
+.menu-secundario {
+    width: 80%;
+    float: left;
+}
+
+.busca {
+    text-align: center;
+    width: 20%;
+    float: right;
+}
+
+.busca input {
+    background-image: url('../img/lupa.png');
+    height: 25px;
+    padding: 7px;
+    width: 180px;
+    margin-top: 5px;
+}
+
+.main-principal {
+    width: 100%;
+    float: left;
+    position: relative;
+}
