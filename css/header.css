@@ -92,6 +92,10 @@ main {
 
 .busca input {
     background-image: url('../img/lupa.png');
+    background-repeat: no-repeat;
+    background-position: 92%;
+    background-size: 20px;
+    border: 2px solid #ccc;
     height: 25px;
     padding: 7px;
     width: 180px;
