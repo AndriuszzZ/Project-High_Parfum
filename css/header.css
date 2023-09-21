@@ -70,6 +70,15 @@ main {
 .menu-secundario ul li {
     display: inline-block;
     margin-left: 15px;
+    height: 50px;
+}
+
+.menu-secundario ul li:hover {
+    border-bottom: 1px solid grey;
+}
+
+.menu-secundario ul li a:hover {
+    color: grey;
 }
 
 .menu-secundario ul li a {
